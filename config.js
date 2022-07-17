@@ -2,13 +2,33 @@
 var MAP_STYLE = "grayscale";
 
 var DATA = {
-	"city_1" : {
-		"univ_A" : ["Peter", "Mary"],
-		"univ_B" : ["Tony", "Pepper"]
+	"青岛" : {
+		"山东大学（青岛校区）" : ["A", "B"],
+		"青岛海洋大学" : ["C", "D"]
 	},
 
-	"city_2" : {
-		"univ_C" : ["Stephen", "Klay", "Kevin"]
+	"济南" : {
+		"山东大学" : ["E", "F", "G"]
+	},
+
+	"上海" : {
+		"复旦大学" : ["H", "I"]
+	},
+
+	"北京" : {
+		"清华大学" : ["J", "K"]
+	},
+
+	"兰州" : {
+		"兰州大学" : ["L", "M", "N"]
+	},
+
+	"武汉" : {
+		"华中科技大学" : ["O", "P", "Q"]
+	},
+
+	"临沂" : {
+		"临沂第一中学（北校区）" : ["常回家看看"]
 	}
 };
 
@@ -16,9 +36,12 @@ var SPEC_POS = {
 	"univ_C" : [121.597479, 31.185356]
 };
 
-var MAP_TITLE = "毕业去向";
+var TEL = {
+};
+
+var MAP_TITLE = "临沂一中19级39班毕业去向";
 
 var ABOUT = {
-	"作者" : ["Yuehao"],
+	"作者" : ["单红旗"],
 	"框架" : ["<a href='https://github.com/yuehaowang/irmap' target='_blank'>irmap</a>", "Bootstrap", "百度地图"]
 };
